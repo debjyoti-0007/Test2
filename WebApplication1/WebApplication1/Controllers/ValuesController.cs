@@ -7,5 +7,10 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok();
+        }
     }
 }
